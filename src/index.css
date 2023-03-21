@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+html,
+body,
+p {
+  font-family: 'Inter', sans-serif !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.StripeElement {
+  margin: 15px auto;
+  padding: 0px 2rem;
+  color: #32325d;
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+@keyframes move-forever {
+  from {
+    transform: translate3d(-90px, 0, 0);
+  }
+  to {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+.fc-icon {
+  background-image: url('https://cdn.podiumio.com/platform/entities/entity-employee-blue-100.png');
+  background-repeat: no-repeat;
+  width: 10px !important;
+  height: 20px !important;
+}
